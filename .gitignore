@@ -1,0 +1,45 @@
+# Ignore the virtual environment
+env/
+.env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore local logs and databases
+*.log
+*.sqlite3
+
+# Ignore static analysis and IDE-related files
+mypy_cache/
+.pyre/
+ruff_cache/
+.idea/
+.vscode/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Python egg metadata
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.Python
